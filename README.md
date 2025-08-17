@@ -6,10 +6,16 @@ Full credit to <b>Justin Meiner</b> and <b>Ryan Pendleton</b> for the code.
 https://www.jmeiners.com/lc3-vm/ </br>
 https://www.jmeiners.com/lc3-vm/supplies/lc3-isa.pdf
 
-<h2>To build the project :</h2>
+<h2>Build the project :</h2>
 
 ```bash
-gcc lc3.c -o lc3-vm
+gcc lc3.c -o lc3_vm
+```
+
+<h2>Load a program :</h2>
+
+```bash
+./lc3_vm program.obj 
 ```
 
 <h2>Can be used with lc3 compatibles programs like :</h2>
